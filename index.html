@@ -1,21 +1,76 @@
-# Portfolio-Art-10C<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Digital Media Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Digital Media Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script
+    type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js">
+  </script>
 </head>
 
 <body>
 
-<h1>Digital Media Portfolio</h1>
+  <header>
+    <h1>Digital Media Portfolio</h1>
+    <h2>Lali Leps</h2>
 
-<h2>Lali Leps</h2>
+    <p>
+      This is my portfolio for my Digital Media class. This website
+      showcases my projects and work created throughout the semester.
+    </p>
+  </header>
 
-<p>
-    This is my portfolio for my Digital Media class.
-    This website showcases my projects and work created throughout the semester.
-</p>
+  <section class="project">
+    <h2>Uncanny Valley: Greek Mythology</h2>
+
+    <p>
+      This project combines work created in Adobe Illustrator and Photoshop.
+      I traced illustrations from a Greek mythology book and experimented
+      with color, texture, layering, and composition.
+    </p>
+
+    <h3>Rough Drafts</h3>
+
+    <img
+      src="fig_image_1_5952.png"
+      alt="Greek mythology rough draft one">
+
+    <img
+      src="fig_image_1_24040.png"
+      alt="Greek mythology rough draft two">
+
+    <img
+      src="photoshop project 1 3rd draft (1).png"
+      alt="Greek mythology third draft">
+
+    <p>
+      <a href="roughdraft1greek.pdf" target="_blank">
+        View the complete Greek mythology PDF
+      </a>
+    </p>
+  </section>
+
+  <section class="model-container">
+    <h2>Interactive Mosaic Mug</h2>
+
+    <p>Click and drag to rotate the mug. Scroll to zoom.</p>
+
+    <model-viewer
+      src="./mosaic-mug.glb"
+      alt="Interactive 3D model of a mosaic mug"
+      camera-controls
+      auto-rotate
+      loading="eager"
+      shadow-intensity="1">
+    </model-viewer>
+  </section>
 
 </body>
 
