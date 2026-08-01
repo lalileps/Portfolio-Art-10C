@@ -30,9 +30,10 @@ h3 {
 }
 
 p {
-  width: 100%;
-  max-width: 700px;
-  margin: 15px auto;
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  margin: 25px auto;
   font-size: 18px;
   line-height: 1.6;
 }
